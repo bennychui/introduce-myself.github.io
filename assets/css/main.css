@@ -1,0 +1,313 @@
+
+body{
+    border: 0px solid black;
+    padding: 25px;
+    margin:1%
+
+}
+
+.aboutme{
+    padding: 0.5px;
+    padding-bottom: 10px;
+    position: relative; 
+    background-color: #9EB998;
+    text-align: center;
+    margin-left: 370px;
+    margin-right: 10px;
+    margin-top: -180px;
+    width: 75%;
+    font-size: 20pt;
+    border-radius: 30px;
+    font-family:"STFangsong";
+}
+
+#propic{
+    width:200px;
+    height:200px;
+    margin:50px
+    overflow:hidden;
+    transform: scale(1,1);
+    transition: 0.5s;
+}
+
+#propic:hover{
+    transform: scale(1.2,1.2);
+    transition: 0.5s;
+
+}
+
+.circle{
+    border-radius: 99em;
+    border: 3px solid rgba(231, 154, 154, 0.76);
+
+}
+
+
+.edubg{
+    padding: 10px;
+    padding-bottom: 10px;
+    width: 98%;
+    font-family:"STFangsong";
+    background-color: bisque;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 20pt;
+    border-radius: 90px; 
+
+    /*margin-left: 10px;
+    margin-right: 370px;*/
+}
+
+.schpic{
+    width: 450px;
+    border-radius: 90px;
+    
+}
+
+
+.skills{
+    position: absolute; 
+    padding: 20px;
+    padding-bottom: 20px;
+    margin-top: 60px;
+    width: 45%;
+    background-color: #F4F1DE;
+    text-align: left;
+    font-size: 18pt;
+    border-radius: 30px;
+    font-family:"STFangsong";
+}
+
+.container{
+    width: 100%;
+    background-color: #ddd;
+}
+
+.skillHTML{
+    width: 60%;
+    background-color: rgba(231, 154, 154, 0.76);
+}
+
+.skillCSS{
+    width: 50%;
+    background-color: rgba(231, 154, 154, 0.76);
+}
+
+.skilldrum{
+    width: 80%;
+    background-color: rgba(231, 154, 154, 0.76);
+}
+
+.experience{
+    position: relative; 
+    padding: 15px;
+    padding-bottom: 20px;
+    margin-top: 60px;
+    margin-left: 55%;
+    margin-right: px;
+    width: 44%;
+    background-color: #81B29A;
+    text-align: center;
+    font-size: 18pt;
+    border-radius: 30px;
+    font-family:"STFangsong";
+}
+
+.club{
+    padding: 20px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    width: 60%;
+    height: 260px;
+    font-family:"STFangsong";
+    background-color: #BABF95;
+    text-align: left;
+    margin-top: 130px;
+    font-size: 18pt;
+    border-radius: 30px; 
+}
+
+.work{
+    position: absolute;
+    top: 950px;
+    padding-left: 500px;
+}
+
+.cutline{
+    position:absolute;
+    width: 0px;
+    height: 230px;
+    border: 1px solid rgb(136, 136, 136);
+    left: 510px;
+    top: 950px;
+
+}
+
+.contact{
+    position: absolute;
+    right: 20px;
+    top: 800px; 
+    height: 330px;
+    
+    padding-bottom: 20px;
+    margin-top: 60px;
+    margin-left: 80px;
+    margin-right: 20px;
+    width: 30%;
+    background-color: #F2CC8F;
+    text-align: center;
+    font-size: 20pt;
+    border-radius: 30px;
+    font-family:"STFangsong";
+}
+
+.circle_contact{
+    border-radius: 99em;
+    border: 3px solid #37ebc4;
+
+}
+
+.contact_icon{
+    margin: 15px;
+    transform: scale(1,1);
+    transition: 0.5s;
+
+}
+
+.contact_icon:hover{
+    transform: scale(1.5,1.5);
+    transition: 0.5s;
+
+}
+
+/*.picmove{
+    position: relative;
+    transition: blur 0.5s;
+    opacity: 1;
+    margin: 0;
+    transform: translateY(-100px);
+}
+
+.picmove:hover .mask{
+    -webkit-transition:0.6s;
+    opacity:0.5;
+    transform: scale(1.2,1.2);
+    transform: translateY(70px);
+}
+
+.mask{
+    text-align: center;
+     #BABF95
+} */
+
+/*.photos tr{
+    display: inline-block;
+}
+
+.photo1-a{
+    
+}
+
+.mask{
+    
+    background-color: #81B29A;
+    color: aliceblue;
+    opacity: 0;
+}
+
+.photo1-a:hover{
+    opacity: 1;
+} */
+
+.photos{
+    position: relative; 
+    padding: 15px;
+    padding-bottom: 20px;
+    float: left;
+    margin-top: 60px;
+    margin-right: px;
+    width: 100%;
+    background-color: #C9886E;
+    text-align: center;
+    font-size: 22pt;
+    border-radius: 30px;
+    font-family:"STFangsong";
+}
+
+.photos-a{
+    padding: 15px;
+}
+
+/*.photo-1-a{
+    position:relative;
+    left: -480px;
+    border-radius: 30px;
+    margin: 15px;
+}
+
+.mylife-1{
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 475px;
+    height: 300px;
+    color: aliceblue;
+    background-color:rgba(0,0,0,.6);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    
+}
+
+.photo-2-a{
+    position:relative;
+    left: 00px;
+    top: -325px;
+    border-radius: 30px;
+    margin: 15px;
+}
+
+.photo-2-a{
+    position:relative;
+    left: 00px;
+    top: -px;
+    border-radius: 30px;
+    margin: 15px;
+} 
+
+.mylife-2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 475px;
+    height: 300px;
+    color: aliceblue;
+    background-color:rgba(0,0,0,.6);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+    width: 30%;
+}
+
+.photo-1-a:hover .mylife-1 {
+    opacity: 1;
+}*/
+
+footer{
+    position:absolute;
+    height: 50px;
+    width: 96%;
+    margin-top: 600px;
+    margin-bottom: 0px;
+    background-color: #81B29A;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 12.5pt;
+    border-radius: ;
+}
+ 
